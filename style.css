@@ -1,0 +1,93 @@
+/* Main */
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+  }
+ body {
+    margin: 40px 20px;
+    padding: 90px;
+    border-radius: 5px;
+    background: #e8dfe0;
+  }
+  h1 {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 70px;
+    margin-bottom: 0;
+    transition: 0.2s;
+  }
+  h1:hover {
+    font-size: 75px;
+  } 
+
+  h2 {
+    font-size: 25px;
+  }
+  body{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #302718;
+    margin: 0;
+  }
+  /* Images */
+  img {
+    max-width: 52%;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    transition:0.2s;
+  }
+  img:hover {
+    width: 52%;
+  }
+  .thin-border {
+      border-color: #8D9B6A;
+      border-width: 9px;
+      border-style: solid;
+    border-radius: 2px;
+    }
+  /* List */
+  ul {
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  li {
+    margin: 10px 10px;
+  }
+  /* Hover Dash */
+  a {
+    text-decoration: none;
+    color: rgb(96, 114, 79);
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(96, 114, 79);
+  }
+  #tribute-link {
+    color: rgb(96, 114, 79);
+  }
+  #tribute-link:hover {
+    text-decoration: none;
+  }
+  #dash {
+    text-decoration: none;
+  }
+  #tribute-link:hover #dash {
+    animation-name: dash-move;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  @keyframes dash-move {
+    0% {
+      border-bottom: 2px solid rgba(96,114,79,0);
+      padding-bottom: 4px;
+    }
+    100% {
+      border-bottom: 2px solid rgba(96,114,79,1);
+      padding-bottom: 4px;
+    }
+  }
