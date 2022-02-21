@@ -91,3 +91,8 @@ html {
       padding-bottom: 4px;
     }
   }
+  footer { 
+    padding: 10px;
+    color: #8D9B6A;
+    text-align: center;
+}

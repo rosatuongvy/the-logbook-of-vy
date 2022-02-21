@@ -96,7 +96,13 @@ body {
     }
   }
   mark {
-    background-color:rgb(209, 214, 160)}
-    h4 {
+    background-color:rgb(209, 214, 160)
+  }
+  h4 {
         font-size: 20px;
     }
+  footer { 
+      padding: 10px;
+      color: #8D9B6A;
+      text-align: center;
+  }
