@@ -1,0 +1,47 @@
+body {
+    font-family: 'Brygada 1918', serif;
+}
+img {width: 800px;
+height: auto;}
+
+footer { 
+    padding: 10px;
+    color: #ebe5e5;
+    text-align: center;
+}
+ /* Hover Dash */
+ a {
+    text-decoration: none;
+    color: rgb(114, 79, 79);
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgb(114, 79, 81);
+  }
+  #tribute-link {
+    color: rgb(114, 79, 79);
+  }
+  #tribute-link:hover {
+    text-decoration: none;
+  }
+  #dash {
+    text-decoration: none;
+  }
+  #tribute-link:hover #dash {
+    animation-name: dash-move;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  @keyframes dash-move {
+    0% {
+      border-bottom: 2px solid rgba(114, 79, 79, 0);
+      padding-bottom: 4px;
+    }
+    100% {
+      border-bottom: 2px solid rgb(114, 79, 79);
+      padding-bottom: 4px;
+    }
+  }
+
+
