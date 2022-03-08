@@ -1,25 +1,80 @@
-body {
-    font-family: 'Brygada 1918', serif;
-}
-img {width: 800px;
-height: auto;}
+/* Main */
+html {
+    font-family: 'Hubballi', cursive;
+    font-size: 25px;
+  }
 
-footer { 
-    padding: 10px;
-    color: #ebe5e5;
+  body {
+    margin: 40px 20px;
+    padding: 90px;
+    border-radius: 5px;
+    background: #414f55;
+  }
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-bottom: 0;
+    transition: 0.2s;
+    color: #bbbc75;
+  }
+  h1:hover {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: #b8b8af;
+  }
+  h3 {
+    font-size: 30px;
+    color: #d9a693;
+  }
+  body{
+    font-size: 25px;
+    line-height: 1.5;
     text-align: center;
-}
- /* Hover Dash */
- a {
+    color: #d9a693;
+    margin: 0;
+  }
+  /* Images */
+  img {
+    max-width: 52%;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    transition:0.2s;
+  }
+  img:hover {
+    width: 52%;
+  }
+  .thin-border {
+      border-color: #bbbc75;
+      border-width: 9px;
+      border-style: solid;
+    border-radius: 2px;
+    }
+  /* List */
+  ul {
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  li {
+    margin: 10px 10px;
+  }
+  /* Hover Dash */
+  a {
     text-decoration: none;
-    color: rgb(114, 79, 79);
+    color: #cca8c8;
   }
   a:hover {
     text-decoration: underline;
-    color: rgb(114, 79, 81);
+    color: #cca8c8;
   }
   #tribute-link {
-    color: rgb(114, 79, 79);
+    color: #cca8c8;
   }
   #tribute-link:hover {
     text-decoration: none;
@@ -35,11 +90,25 @@ footer {
   }
   @keyframes dash-move {
     0% {
-      border-bottom: 2px solid rgba(114, 79, 79, 0);
+      border-bottom: 2px solid rgba(112, 114, 79, 0);
       padding-bottom: 4px;
     }
     100% {
-      border-bottom: 2px solid rgb(114, 79, 79);
+      border-bottom: 2px solid #bbbc75;
       padding-bottom: 4px;
     }
+  }
+  mark {
+    background-color: #ecd3cf;
+    color: 	
+    #799c41 ;
+  }
+h4 {
+    color: #cca8c8;
+    font-size: 30px;
+}
+  footer { 
+      padding: 10px;
+      color: #d9a693;
+      text-align: center;
   }
