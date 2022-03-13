@@ -1,8 +1,25 @@
 /* Main */
 html {
-    font-family: 'Hubballi', cursive;
-    font-size: 25px;
-  }
+  font-family: 'Brygada 1918', serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Brygada 1918', serif;
+  font-size: 50px;
+  margin-bottom: 0;
+  transition: 0.2s;
+  color: #bbbc75;
+}
+
+body{
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d9a693;
+  margin: 0;
+}
+
 
   body {
     margin: 40px 20px;
@@ -10,32 +27,20 @@ html {
     border-radius: 5px;
     background: #414f55;
   }
-  h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
-    margin-bottom: 0;
-    transition: 0.2s;
-    color: #bbbc75;
-  }
+
   h1:hover {
-    font-size: 50px;
+    font-size: 55px;
   }
   
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     color: #b8b8af;
   }
   h3 {
     font-size: 30px;
     color: #d9a693;
   }
-  body{
-    font-size: 25px;
-    line-height: 1.5;
-    text-align: center;
-    color: #d9a693;
-    margin: 0;
-  }
+
   /* Images */
   img {
     max-width: 52%;
@@ -112,3 +117,36 @@ h4 {
       color: #d9a693;
       text-align: center;
   }
+  /* navigation bar */
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 50px; 
+  display: flex;
+  flex-direction: row;
+ }
+ #nav-bar ul {
+   display: flex;
+   flex-direction: row;
+   background-color:rgba(240, 125, 96, 0);
+ } 
+ #nav-bar a{
+   color: rgb(255, 197, 176);
+   text-decoration: none;
+   font-size: 20px;
+ }
+ #nav-bar li {
+   list-style: none;
+   padding: 5px;
+   margin: 30px;
+ }
+ #dash {
+   text-decoration: none;
+ }
+ #dash:hover {
+   animation-name: dash-move;
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+ }
+
