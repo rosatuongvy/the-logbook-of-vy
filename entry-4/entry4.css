@@ -12,7 +12,7 @@ h1 {
   letter-spacing: 0.5rem;
 }
 
-.heading {
+.title , .add-notes{
   color: #FFF;
   left: 0;
   position: absolute;
@@ -21,28 +21,25 @@ h1 {
   width: 100%;
 }
 
-.bg-img1 {
+.background1 {
   background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://images.pexels.com/photos/2985098/pexels-photo-2985098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
-.bg-img2 {
+.background2 {
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   }
  
-.parallax {
+.background-edit {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   min-height: 100%;
   position: relative;
 }
-@media only screen and (max-device-width: 1024px) {
-  .parallax {background-attachment: scroll;}
-  .heading {top: 30%;} 
-  .middle {top: 15%;}
+@media only screen and (max-device-width: 800px) {
+  .background-edit {background-attachment: scroll;}
+  .title {top: 30%;} 
+  .add-notes {top: 15%;}
 }
 
 /* navigation bar */
